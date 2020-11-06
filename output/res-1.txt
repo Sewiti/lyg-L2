@@ -1,0 +1,71 @@
+Initial data:
+  # | Name                          | Age | Salary
+----+-------------------------------+-----+----------
+  1 | Heather Campbell              |  86 |  1178.82
+  2 | Stacey Brown                  |  91 |  4736.19
+  3 | Michael Jackson               | 108 |  2012.86
+  4 | Karen Walsh                   | 110 |  3818.07
+  5 | Tamara Miller                 |  29 |  2919.01
+  6 | Nicholas Johnson              |  27 |  4487.29
+  7 | Cristina Pearson              |  93 |  2990.88
+  8 | Peter Valenzuela              |  52 |  2269.32
+  9 | Jessica Douglas               |  25 |  1980.22
+ 10 | Gregory Wells                 | 101 |  1403.49
+ 11 | Tiffany Ponce                 |  25 |  3079.72
+ 12 | Gwendolyn Lee                 |  87 |  2530.03
+ 13 | Matthew Hayes                 |  99 |  2741.09
+ 14 | Charles Young                 | 109 |  4778.25
+ 15 | Natalie Parker                | 110 |  2605.44
+ 16 | Daniel Mcdowell               |  68 |  4460.75
+ 17 | Jonathan Bennett              | 100 |  4104.45
+ 18 | Donald Bautista               |  92 |   167.15
+ 19 | Justin Morales                |  59 |  2516.82
+ 20 | Pamela Campbell               |  58 |  3329.59
+ 21 | Sherry Ferguson               |  91 |   684.73
+ 22 | Victoria Garcia               |  37 |  4767.01
+ 23 | Kevin Williams                |  31 |  3548.04
+ 24 | Kristine Young MD             |  30 |  1226.34
+ 25 | Jennifer Matthews             |  82 |  3368.92
+ 26 | Thomas Martin                 |  49 |  3072.44
+ 27 | Heather Watts                 |  87 |   479.49
+ 28 | David Bowman                  |  57 |  2038.83
+ 29 | Jose Perry                    |  92 |  1771.78
+ 30 | Bonnie Patton                 |  91 |  2535.59
+ 31 | Kevin Smith                   |  43 |  4243.94
+ 32 | Juan Hayes                    |  27 |  4983.03
+
+Results:
+  # | Name                          | Age | Salary   | Hash
+----+-------------------------------+-----+----------+------------------------------------------------------------------------------------------
+  1 | Bonnie Patton                 |  91 |  2535.59 | OQVxBH4Ib1xK3CbQKzP_MNlWiB1G0m_0fFUUspsysl6WWuGDhVaFfwHwJBFbJmDHXId29hz5Bt8e_YsCUBvGJg==
+  2 | Charles Young                 | 109 |  4778.25 | JzDqRJwIEKme1TytkrzzkSeOw12RkE4AcFCjSW6n2wBGwXk2fLIezG9SEeKO6-xcDAIon5gqa-MzBu1PgqXz2A==
+  3 | Cristina Pearson              |  93 |  2990.88 | JI_VsgWpHbWMHZ4jQnMQu_u_0c3sGLCQJC94qEVhnBpO8QYiCpMOkVZIARTd_uAZU9Qbv5DtKVBWCocMWs47DQ==
+  4 | Daniel Mcdowell               |  68 |  4460.75 | KKh1jzo3HUSZTZxJLbdf5luF7CQigdSc2AGuS5k4fTnHO5bKcSd-oOgvjGRNzD8nQU2GiqGp__zQ484XnSfn1Q==
+  5 | David Bowman                  |  57 |  2038.83 | O0WXs6NgaLw3-6KZGz572zC0uEz5sHixRyIUUw1W1wA5bzUhPO8Nnl-ZZGmuxUAke5onyZxfysDA-V_jN7jPSQ==
+  6 | Donald Bautista               |  92 |   167.15 | -a1xfSMN1pccyI8U49kFa995V44YVRGgPGvTmM9b5ARCzash4n2DYEpp0yR3Ew7_BMhcgQD8Dmazo4KhdGX1fg==
+  7 | Gregory Wells                 | 101 |  1403.49 | M-nKlepYBaIpukBzeJrz7D0MRFedGSXR9IDngUn3fjcyvuLOfwU9GioKNKd3vX2oV659re_FV9Jf8XZkjwN2EQ==
+  8 | Gwendolyn Lee                 |  87 |  2530.03 | c3niVdXlP7v-M1Ia4SGhaCEjhdnJ_4h8Eq5uaxrCB3Dqfb1GUm4vd2qlJWFQMa-i9JBJv3y9jfbysxa2tjh02w==
+  9 | Heather Campbell              |  86 |  1178.82 | LGCpQaUvqgxeJBzUrO54EG5A2HOl8gYjXcSuCUPnRExbUwSiym-kTxgbv5jsFArL7-n1UMg5YB9EEigwNsvhHg==
+ 10 | Heather Watts                 |  87 |   479.49 | Ap1Fh3FRn_9pdhcl-sRKImPR2B9r-uiNavj8shO427-jFUxJ3EaPyQOLmBrvzCIalHfhPNmHKpa3ez3VBI4agw==
+ 11 | Jennifer Matthews             |  82 |  3368.92 | tKiIEhUj44BUfEpBDT5by2h0_P5iHn49D3DEMUhBmy-2ImCeVmS3lIB-QsNGbLkI8BtLXLObIyElwjwaGbPU8w==
+ 12 | Jessica Douglas               |  25 |  1980.22 | 2pJPXMjgDyfyJ7pCafNgbLpAduiHdRO3PPUQLYpYAeRa8KwBzrtTLRmwfFr93OWIgjPejq9dRLpREM-7G6NYDg==
+ 13 | Jonathan Bennett              | 100 |  4104.45 | h_uK6zsVZEFaMz653c-l4TcniA6OLxC6Qz0ksumJ4apV1bLnOaAvthRCWEON3tbWGkNJoIqFdLOAoy3qCRpANQ==
+ 14 | Jose Perry                    |  92 |  1771.78 | WkgZCaVflmhARwVMbxZThEfj0J0wPVY3XLLPIcDy4ScpB0meNCnaZosjz2C1gau3nyPTq2qxQhID9_hGwRcV-g==
+ 15 | Juan Hayes                    |  27 |  4983.03 | azYWLFzqM6b-MznJ4aq1s5uciGJXhK4d0TzYgsrnCs_MKtHcizL1Y4fSok8lpc39tM_3OEUEZZ2UTVZoBsBfWQ==
+ 16 | Justin Morales                |  59 |  2516.82 | zaNVq_VWkZcBp0UsMOs6UXlfyGh_HlUewB35VFSeZUze_deHvafun-lCADLBo3f9cAiIEA9QOjFy4dbtHv1hHw==
+ 17 | Karen Walsh                   | 110 |  3818.07 | 6o0dNK1dU302CN84RCCFoi-Ypi9EB8d6PH92lPYiCAp4eOK_SbwjXm0J7cHyKNr3jn5TQMLcPOp0LnEV-PRcog==
+ 18 | Kevin Smith                   |  43 |  4243.94 | cVULBKOQ3na-TzEa2BtpB3-IuwBpkJMQQpvU5azLfRgtO0QBBN8JTEyV8lMD2tjcz0jSF1majdks9dJnQMCLNg==
+ 19 | Kevin Williams                |  31 |  3548.04 | 6rv98x5DLyoNppsxS-TU9uhPZQIA7iaPwUtrCRaNRby8aE1ZR0JmbOvoO9kDPDGL3ScAGVmi_5gRKBxd48fYGQ==
+ 20 | Kristine Young MD             |  30 |  1226.34 | 0Ln61Vqtq9mW6z8mI_I5ck8TBfKeJxYOWIhUdFo9JCnfO0tZNKPTr41e3StqvJ6MQ9UcoFyfbZ7A1RkCGp5m6w==
+ 21 | Matthew Hayes                 |  99 |  2741.09 | bIs3JG1-G0jnZUSk-6NOVJwOKMzwdZFwKQ-nHz5oUFF-GnU9lHOTrSF7qypec0XGpEEQyaGwSGmCUid1HlgA4w==
+ 22 | Michael Jackson               | 108 |  2012.86 | 79iLN7kzKHzqsgoI2gbBwcSvwvc7CSNzqfN1mlFK4QL4pDDdnPrOm2yalQpGeI7cny5cmErGzbH23An4MmRD3A==
+ 23 | Natalie Parker                | 110 |  2605.44 | 0ilkLAvLtF8JiY5JamVMM4yxcxtFOHzEoxe6_XbDygG5hcWHbgDVwEORJoDrQp_w9R6ssfdTkhrFayOasgWDog==
+ 24 | Nicholas Johnson              |  27 |  4487.29 | Im78sXVDYL1nIfg8b8AxHWBo_to4FY7sJOGRG6kHyvlVe8xI1lpkHsUK_4QBkuqEouC0c_jvWeuigrf2Ho8Ifw==
+ 25 | Pamela Campbell               |  58 |  3329.59 | nweyS6-BVLGfmnmQSNoQsiLR5j63Bq045Bq2DIQKeecT2e3tL_c_mxn31qCYWn4G0QFhjV5qXYb3x2jQXizO6Q==
+ 26 | Peter Valenzuela              |  52 |  2269.32 | -hfeFU7GtZiMmzaeXnyakVls6Ebz8NWcEtbZl_cCIEcj6bRqfPXyJ4zAQzSDWL3SX7_8yd_rYlYZHDPY3BO_lA==
+ 27 | Sherry Ferguson               |  91 |   684.73 | n4Z5-IBhBpJlsPqO0jvbVnPsJ6w5kG4_BK5zfrWKQ8MvmesoRwe44foI42poABGmt8THVhLE0Jqd7Ha4sHrPcg==
+ 28 | Stacey Brown                  |  91 |  4736.19 | zFqFhh59FGXhx5-aoZfeqOz6heZ_qGq5s1Hfscg0vB2So4pFMnI01wB9tJDAevXtN9vqc95C18utcXaDQB5TFg==
+ 29 | Tamara Miller                 |  29 |  2919.01 | 4DSGKrbls7F2x4CjKCivROv6GV0e970gLwyTjTEvIkYbU4eq9b37mSG0Y-R2hgwLyZGaKoT7Sukgzl1qFxYJaA==
+ 30 | Thomas Martin                 |  49 |  3072.44 | EbegtHwBpxWLxTKQT4MaPPdaoD1gaNV-MQGJvejXqrWco4Tay5SQ8jycIdFV_f1zxIe4dPITxSMFoXqbCJsSgA==
+ 31 | Tiffany Ponce                 |  25 |  3079.72 | vz4q0etR3aq1bYrHA5v9NXWP5JmaKBKqKvwbuMUxN7BLdJoa8gWrxCZJhTLpJ8Y768UeTcOVMDfCmXpjxo8JAg==
+ 32 | Victoria Garcia               |  37 |  4767.01 | kf5D4k3tJ8S8tICdjME48f5dTbJnYmmXDhra9gVdKAVqC71UTt46F7HyhjwFQw1nqp11UrROVuK2PUKvrJG6xg==

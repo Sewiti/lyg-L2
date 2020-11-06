@@ -11,5 +11,11 @@ type Employee struct {
 }
 
 func (e *Employee) String() string {
-	return fmt.Sprintf("%s %d %f %s", e.Name, e.Age, e.Salary, e.Hash)
+	const format = "%-30s|%4d |%9.2f"
+
+	if e.Hash == "" {
+		return fmt.Sprintf(format, e.Name, e.Age, e.Salary)
+	}
+
+	return fmt.Sprintf(format+" | %s", e.Name, e.Age, e.Salary, e.Hash)
 }

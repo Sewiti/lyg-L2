@@ -7,6 +7,8 @@ import (
 )
 
 func data(in <-chan employee.Employee, out chan<- employee.Employee, max int) {
+	defer close(out)
+
 	arr := make([]employee.Employee, max)
 	from, to, size := 0, 0, 0
 	done := false
