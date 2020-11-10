@@ -3,16 +3,13 @@ package main
 import (
 	"crypto/sha512"
 	"encoding/base64"
-	"sync"
 
 	"github.com/Sewiti/lyg-L2/internal/employee"
 )
 
 const iterations = 6e6
 
-func worker(in <-chan employee.Employee, out chan<- employee.Employee, wg *sync.WaitGroup) {
-	defer wg.Done()
-
+func worker(in <-chan employee.Employee, out chan<- employee.Employee, fin chan<- struct{}) {
 	for e := range in {
 		bytes := []byte(e.String())
 
@@ -27,4 +24,6 @@ func worker(in <-chan employee.Employee, out chan<- employee.Employee, wg *sync.
 			out <- e
 		}
 	}
+
+	fin <- struct{}{}
 }

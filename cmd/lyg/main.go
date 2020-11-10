@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"math"
-	"sync"
 
 	"github.com/Sewiti/lyg-L2/internal/employee"
 )
@@ -42,12 +41,10 @@ func execute(dataFile string, resFile string) error {
 	get := make(chan employee.Employee, n) // for retrieving from data thread
 	res := make(chan employee.Employee, n) // for sending to results thread
 	fin := make(chan []employee.Employee)  // for retrieving from results thread
-
-	wg := sync.WaitGroup{}
-	wg.Add(n)
+	sync := make(chan struct{})            // for synchronization
 
 	for i := 0; i < n; i++ {
-		go worker(get, res, &wg)
+		go worker(get, res, sync)
 	}
 
 	go data(snd, get, m)
@@ -58,7 +55,10 @@ func execute(dataFile string, resFile string) error {
 	}
 	close(snd)
 
-	wg.Wait()
+	for i := 0; i < n; i++ {
+		<-sync
+	}
+	close(sync)
 	close(res)
 
 	return write(resFile, es, <-fin)

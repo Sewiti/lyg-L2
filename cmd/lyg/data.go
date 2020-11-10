@@ -24,8 +24,7 @@ func data(in <-chan employee.Employee, out chan<- employee.Employee, max int) {
 		} else {
 			// Placeholder to keep indexes in check
 			cases = append(cases, reflect.SelectCase{
-				Dir:  reflect.SelectRecv,
-				Send: reflect.Value{},
+				Dir: reflect.SelectRecv,
 			})
 		}
 
@@ -50,7 +49,7 @@ func data(in <-chan employee.Employee, out chan<- employee.Employee, max int) {
 			}
 
 		case 1:
-			arr[from] = employee.Employee{} // optional
+			// arr[from] = employee.Employee{} // optional
 			from = (from + 1) % len(arr)
 			size--
 		}
